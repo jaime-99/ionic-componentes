@@ -1,0 +1,41 @@
+
+<!-- <app-header titulo="avatar"></app-header> -->
+<ion-header>
+
+<ion-toolbar>
+  <ion-title>AVATAR</ion-title>
+
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" ></ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <img src="\assets\Naruto.png" />
+      </ion-avatar>
+    </ion-buttons>
+</ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding">
+
+  <ion-chip color="primary" mode="ios" outline="true">
+    <ion-avatar>
+      <img src="\assets\Naruto.png" />
+    </ion-avatar>
+    <ion-label>Naruto</ion-label>
+  </ion-chip>
+
+
+  <ion-list>
+    <ion-item *ngFor="let i of [1,1,1,1]">
+      <ion-avatar slot="start">
+        <img src="\assets\Naruto.png"/>
+      </ion-avatar>
+      <ion-label>Naruto</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
