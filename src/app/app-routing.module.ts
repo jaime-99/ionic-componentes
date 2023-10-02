@@ -32,6 +32,10 @@ const routes: Routes = [
     path: 'ion-card',
     loadChildren: () => import('./pages/ion-card/ion-card.module').then( m => m.IonCardPageModule)
   },
+  {
+    path: 'chec-box',
+    loadChildren: () => import('./pages/chec-box/chec-box.module').then( m => m.ChecBoxPageModule)
+  },
 ];
 
 @NgModule({

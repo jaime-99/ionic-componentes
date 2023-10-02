@@ -46,6 +46,11 @@ export class InicioPage implements OnInit {
       name:'Card',
       redirectTo:'/ion-card'
     },
+    {
+      icon:'add',
+      name:'CheckBox',
+      redirectTo:'/chec-box'
+    },
   ];
 
 
